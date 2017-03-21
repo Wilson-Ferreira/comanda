@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#81C784</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorAccent">#4CAF50</color>
+
+
+    <!-- cores dos grids -->
+    <color name="colorBackgroundPrincipal">#81C784</color>
+    <color name="colorTextGrid">#000000</color>
+    <color name="colorButtonGrid">#81C784</color>
+    <color name="colorTextButtonGrid">#000000</color>
+    <color name="colorBackgroundGrid">#FFFFFF</color>
+
+    <!-- cores dos listView -->
+    <color name="colorList">#FFFFFF</color>
+    <color name="colorTextList">#000000</color>
+    <color name="colorButtonList">#81C784</color>
+    <color name="colorTextButtonList">#000000</color>
+    <color name="colorBackgroundList">#FFFFFF</color>
+    <color name="colorItemSelecionadoList">#C8E6C9</color>
+
+</resources>

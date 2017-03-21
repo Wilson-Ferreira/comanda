@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundList">
+
+    <include android:id="@+id/tool"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/tvMesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/textSize_lista"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorTextList"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvCartao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/textSize_lista"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/colorTextList"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/listaPedidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="5dp"
+        android:background="@color/colorList"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="55dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="@dimen/textSize_button_salvar"
+            android:background="@color/colorButtonList"
+            android:textColor="@color/colorTextButtonList"
+            android:text="@string/buttonSalvar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

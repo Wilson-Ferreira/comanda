@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="10dp"
+    android:background="@color/colorPrimary"
+    tools:context="br.com.wp.comanda.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/entrar_no_sistema"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textEmail"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/txt_email"
+        android:layout_toRightOf="@+id/txt_senha"
+        android:layout_toEndOf="@+id/txt_senha"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+
+    <TextView
+        android:id="@+id/txt_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textSenha"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt_email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_alignBaseline="@+id/txt_senha"
+        android:layout_alignBottom="@+id/txt_senha"
+        android:textSize="30sp"
+        android:layout_alignLeft="@+id/edt_email"
+        android:layout_alignStart="@+id/edt_email" />
+
+    <Button
+        android:id="@+id/btn_limpar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textbuttonLimpar"
+        android:textSize="@dimen/textSize_button_limpar"
+        android:textStyle="bold"
+        android:layout_below="@+id/txt_senha"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp" />
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textbuttonEntrar"
+        android:textSize="@dimen/textSize_button_entrar"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/btn_limpar"
+        android:layout_alignBottom="@+id/btn_limpar"
+        android:layout_toLeftOf="@+id/btn_limpar"
+        android:layout_toStartOf="@+id/btn_limpar" />
+
+</RelativeLayout>

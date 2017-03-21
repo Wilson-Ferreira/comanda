@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- definições para layout padrão-->
+    <!-- tela de login  -->
+    <string name="textbuttonEntrar">Entrar</string>
+    <string name="textbuttonLimpar">Limpar</string>
+    <string name="textEmail">Email</string>
+    <string name="textSenha">Senha</string>
+    <string name="entrar_no_sistema">Entrar no sistema</string>
+
+
+    <string name="app_name">Comanda eletrônica</string>
+    <string name="excluir_item">Excluir Item</string>
+    <string name="alterar_qtde">Alterar Quantidade</string>
+
+    <string name="buttonSalvar">Salvar</string>
+    <string name="text_button_novoPedido">Novo pedido</string>
+    <string name="text_button_pesquisar_pedidos">Pesquisar pedidos</string>
+    <string name="text_button_sincronizar_dados">Sincronizar dados</string>
+    <string name="text_button_iniciar_novo_pedido">Iniciar novo pedido</string>
+
+    <string name="string_mesa">Mesa -  %1$s</string>
+    <string name="string_cartao">Cartão -  %1$s</string>
+
+    <!-- list itens -->
+    <string name="string_valor">Valor</string>
+    <string name="string_nome_item">Item</string>
+    <string name="string_disponivel">Disponível</string>
+    <string name="string_qtde">Qtde</string>
+
+    <!-- strings actionBar -->
+    <string name="principal">Principal</string>
+    <string name="itens_do_cardapio">Itens do cardápio </string>
+    <string name="mesas">Mesas</string>
+    <string name="cartoes">Cartões</string>
+    <string name="categorias">Categorias</string>
+    <string name="novo_pedido">Novo pedido</string>
+    <string name="login">Login</string>
+    <string name="quantidades">Quantidades</string>
+    <string name="cancelar_pedido">Cancelar Pedido</string>
+
+
+    <!-- mensagens do Toast -->
+    <string name="selecione_um_item">Selecione um item</string>
+    <string name="não_ha">"Não há "</string>
+    <string name="cadastrados">" cadastrados(as)"</string>
+    <string name="não_ha_config_definidas">Não há configurações definidas</string>
+    <string name="nao_ha_itens_selecionados">Não há itens selecionados para o pedido</string>
+    <string name="cartao_nao_selecionado">Cartão não foi selecionado</string>
+    <string name="mesa_nao_selecionada">Mesa não foi selecionada</string>
+    <string name="não_ha_itens_para_salvar">Não há itens para salvar.</string>
+    <string name="salvando_pedidos">Salvando pedidos...</string>
+    <string name="carregando_qtdes">Carregando quantidades...</string>
+    <string name="servidor_nao_retornou">Servidor não retornou</string>
+    <string name="carregando_cardapio">Carregando cardápio...</string>
+    <string name="carregando_categorias">Carregando categorias...</string>
+    <string name="carregando_mesas">Carregando mesas...</string>
+    <string name="carregando_cartoes">Carregando cartões...</string>
+    <string name="usuario_conectado">Usuário conectado com sucesso</string>
+    <string name="carregando_configuracoes">Carregando configurações...</string>
+    <string name="autenticando_usuario">Autenticando usuário...</string>
+    <string name="email_senha_sao_obrigatorios">Email e senha são obrigatórios</string>
+    <string name="usuario">usuario</string>
+
+
+</resources>

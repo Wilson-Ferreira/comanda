@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundList">
+
+    <include android:id="@+id/tool"
+        layout="@layout/toolbar" />
+
+    <ListView
+        android:id="@+id/listaCardapio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:dividerHeight="5dp"
+        android:layout_marginBottom="60dp"
+        android:choiceMode="multipleChoice"
+        android:background="@color/colorList"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/btnProximo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="@dimen/textSize_button_proxima"
+            android:background="@color/colorButtonList"
+            android:textColor="@color/colorTextButtonList"
+            android:text="@string/buttonProxima"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/act_alterar_qtde"
+        android:title="@string/alterar_qtde"/>
+
+    <item android:id="@+id/act_excluir_item"
+        android:title="@string/excluir_item"/>
+
+</menu>
